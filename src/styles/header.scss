@@ -61,10 +61,10 @@
       content: '';
       position: absolute;
       bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 0;
       height: $nav-link-underline-height;
-      width: $nav-link-underline-max-width;
+      width: 100%;
+      max-width: $nav-link-underline-max-width;
       background-color: $color-primary;
       border-radius: $border-radius-main;
     }
