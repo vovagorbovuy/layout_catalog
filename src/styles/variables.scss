@@ -17,6 +17,10 @@ $font-weight-medium: 500;
 $font-weight-bold: 700;
 $font-size-base: 10px;
 $font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$line-height-base: 14px;
+$line-height-sm: 16px;
 $line-height-md: 18px;
 
 // Layout & Dimensions
@@ -24,10 +28,26 @@ $border-radius-main: 5px;
 $card-width: 200px;
 $catalog-padding-y: 50px;
 $catalog-padding-x: 40px;
-$grid-row-gap: 48px;
-$grid-column-gap: 46px;
+$grid-row-gap: 46px;
+$grid-column-gap: 48px;
 $star-size: 16px;
 $star-margin: 4px;
+$shadow-offset-y: 2px;
+$shadow-blur: 4px;
+
+// Card Specific
+$card-padding: 32px 16px 16px;
+$card-img-max-width: 160px;
+$card-img-height: 134px;
+$card-title-margin: 40px 0 4px;
+$card-rating-margin: 16px 0 24px;
+$card-btn-margin-top: 16px;
+$card-btn-padding: 11px;
+
+// Breakpoints
+$bp-sm: 488px;
+$bp-md: 768px;
+$bp-lg: 1024px;
 
 // Header & Navigation
 $header-padding-x: 50px;

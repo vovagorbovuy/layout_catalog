@@ -52,12 +52,12 @@
     color: $color-nav-link;
     transition: color $transition-duration;
 
-    &--is-active,
+    &.is-active,
     &:hover {
       color: $color-primary;
     }
 
-    &--is-active::after {
+    &.is-active::after {
       content: '';
       position: absolute;
       bottom: 0;
