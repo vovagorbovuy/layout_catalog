@@ -17,7 +17,7 @@
     max-width: $card-img-max-width;
     width: 100%;
     height: $card-img-height;
-    background-size: cover;
+    object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +32,10 @@
   }
 
   &__code {
+    color: $color-text-secondary;
+  }
+
+  &__reviews {
     color: $color-text-secondary;
   }
 

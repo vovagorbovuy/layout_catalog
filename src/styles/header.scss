@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding: 0 $header-padding-x;
   background-color: $color-white;
-  box-shadow: 0 2px 4px 0 $color-shadow;
+  box-shadow: 0 $shadow-offset-y $shadow-blur 0 $color-shadow;
 
   &__logo-link {
     display: block;
@@ -61,10 +61,10 @@
       content: '';
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       height: $nav-link-underline-height;
-      width: 100%;
-      max-width: $nav-link-underline-max-width;
+      width: $nav-link-underline-max-width;
       background-color: $color-primary;
       border-radius: $border-radius-main;
     }
