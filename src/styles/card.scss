@@ -37,6 +37,7 @@
 
   &__rating {
     @extend %flex-space-between;
+
     margin: $card-rating-margin;
   }
 
