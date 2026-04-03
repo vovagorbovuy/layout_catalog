@@ -17,7 +17,7 @@
     max-width: $card-img-max-width;
     width: 100%;
     height: $card-img-height;
-    background-size: cover;
+    background-size: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +29,7 @@
     font-size: $font-size-sm;
     line-height: $line-height-md;
     transition: color $transition-duration;
+    color: $color-nav-link;
   }
 
   &__code {
@@ -36,7 +37,7 @@
   }
 
   &__reviews {
-    color: $color-text-secondary;
+    color: $color-nav-link;
   }
 
   &__rating {
@@ -52,9 +53,11 @@
   &__price-label {
     font-size: $font-size-sm;
     line-height: $line-height-md;
+    color: $color-text-secondary;
   }
 
   &__price-value {
+    color: $color-nav-link;
     font-weight: $font-weight-bold;
     font-size: $font-size-lg;
     line-height: $line-height-md;
